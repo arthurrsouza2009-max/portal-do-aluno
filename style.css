@@ -1,0 +1,113 @@
+.body { 
+    /*estava sem o ponto antes de começar */
+font-family: Arial, sans-serif;
+/* estava sem o ponto e virgula */ 
+background-color: #f4f4f4; 
+margin: 0px; 
+padding: 0px; 
+/* estava sem os dois pontos o padding*/
+} 
+.header { 
+    /*estava sem o ponto antes de começar */
+background-color: #333;
+/*estava sem o ponto e virgula*/ 
+color: white; 
+padding: 20px; 
+text-align: center; 
+} 
+.h1 { 
+    /*estava sem o ponto.*/ 
+font-size: 2em; 
+color: white; 
+/*color estava escrito errado*/ 
+} 
+.nav ul { 
+list-style-type: none; 
+display: flex; 
+justify-content: center;
+/*estava sem os dois pontos*/  
+padding: 0px;
+/*estava sem o px*/  
+} 
+.nav ul li {
+    /*estava sem o ponto*/  
+margin: 15px;
+/*estava indevidamente com um 0 */ 
+} 
+.nav ul li a {
+    /*estava sem o ponto*/  
+color: white; 
+text-decoration: none;
+/*estava sem o ponto e virgula*/ 
+font-weight: bold;  
+} 
+.nav ul li a:hover { 
+    /*estava sem o ponto*/ 
+color: #ffcc00 ;
+/*esta sem o ponto e virgula*/ 
+text-decoration: underline; 
+} 
+.section { 
+    /*estava sem o ponto*/ 
+padding: 20px; 
+margin: 20px auto; 
+max-width: 800px; 
+background-color: #fff;
+/*estava sem o - color*/  
+border-radius: 5px;
+/*nao estava fechando com ;*/ 
+box-shadow: 0 0 10px rgba(0,0,0,0.1); } 
+.destaque { 
+font-weight: bold; 
+color: white; 
+/*estava sem a cor*/ 
+font-size: 18px;
+/*nao estava fechando com dois pontos*/  
+} 
+.img { 
+/*estava sem o ponto*/ 
+width: 100%; 
+/*sem os dois pontos*/ 
+height: auto; 
+border-radius: 5px; 
+} 
+.form label { 
+    /*sem o ponto*/ 
+display: block; 
+margin-top: 10px;
+/*estava sem o ponto e virgula*/ 
+font-weight: bold; 
+} 
+form input { /*sem o ponto*/ 
+width: 100%; 
+padding: 8px; 
+margin-top: 5px;
+/*sem os dois pontos*/  
+border;: 1px solid #ccc;
+/*sem o ponto e virgula*/ 
+border-radius: 4px; 
+}
+.button {  /*sem o ponto*/ 
+background-color: #27ae60; 
+color: white; 
+border: none ;
+/*sem o ponto e virgula*/ 
+padding: 10px 20px; 
+margin-top: 15px; 
+cursor: pointer; 
+} 
+.button:hover { /*sem o ponto*/ 
+background-color #2ecc71; 
+} 
+.footer { /*sem o ponto*/ 
+text-align: center; 
+padding: 15px; 
+background-color: #333; 
+color: white 
+}
+/*nao estava fechando a chave*/ 
+.card { 
+display: flex; 
+flex-direction: column; 
+gap: 10px; 
+} 

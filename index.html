@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<!--estava escrito html errado -->
+<html lan="en">
+    <!--a forma correta do html lan = em nao en --> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Portal do Aluno</title> 
+    <!--nao estava fechado a tag corretamente -->
+<link rel="stylesheet" href="styles.css"> 
+</head> 
+<body>
+    <!--body estava escrito bod--> 
+<header> 
+<h1>Bem-vindo ao Portal do Aluno</h1>
+<!-- a tag fechando era h2 --> 
+<nav> 
+<ul> 
+<li><a href="#home">Início</a></li> 
+<!--nao estaa fechando a tag do a -->
+<li><a href="#sobre">Sobre</a></li> 
+<li><a href="#cursos">Cursos</a></li>
+    <!--estava sem a barra inclinida do li'/'  --> 
+<li><a href="#contato">Contato</a></li> 
+</ul> 
+</nav> 
+</header> 
+<main> 
+<section id="home"> 
+<h2>Nossos Cursos</h2> 
+    <!-- a tag fechando o h2 era h3 -->
+<p class"destaque">Conheça os melhores cursos técnicos da região. <p> <img src="curso.jpg" alt="Curso de desenvolvimento"> 
+    <!--o primeiro p nao esta fechado com > -->
+</section> 
+<section id="sobre"> 
+<h2>Sobre Nós</h2> 
+<p Somos uma escola técnica com <strong>mais de 10 anos</strong> de experiência no mercado.</p> 
+<!-- o ultimo stong nao estava fechado com > -->
+</section> 
+<section id="cursos"> 
+<h2>Lista de Cursos</h2> 
+<ul> 
+<li>Desenvolvimento de Sistemas</li>
+    <!-- nao estava fechando a tag li -->
+<li>Redes de Computadores</li> 
+<li>Administração</li> 
+</ul> 
+</section> 
+<section id="contato"> 
+<h2>Contato</h2> 
+<form action="/enviar" metodo="post"> 
+    <!-- metodo estava escrito errado -->
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome"> 
+<label for="email">E-mail<label> 
+<input type=email id="email" name="email"> 
+<!--o primeiro email estava escrito errado -->
+<button type="submit">Enviar</button> 
+<!-- nao esta fechando a tag button-->
+</form> 
+</section> 
+</main> 
+<footer> 
+<p>&copy 2025 Escola Técnica. Todos os direitos reservados.</p> </footer> 
+</html> 
